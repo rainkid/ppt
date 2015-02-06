@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fragment_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical" >
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/conn"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".50"
+            android:background="@drawable/btn_1"
+            android:text="连接" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_weight=".50"
+            android:background="@drawable/btn_1"
+            android:text="关闭" />
+   
+</LinearLayout>
+
+   <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/first"
+            android:layout_width="0dip"
+            android:layout_height="100dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/btn_2"
+            android:text="第一页" />
+        
+        <Button
+            android:id="@+id/d3"
+            android:layout_width="0dip"
+            android:layout_height="100dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/btn_2"
+            android:text="3D效果" />
+        
+        <Button
+            android:id="@+id/end"
+            android:layout_width="0dip"
+            android:layout_height="100dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight=".33"
+            android:background="@drawable/btn_2"
+            android:text="最后一页" />
+
+</LinearLayout>
+
+<LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/pre"
+            android:layout_width="0dip"
+            android:layout_height="100dp"
+            android:layout_marginRight="1dp"
+            android:layout_weight=".50"
+            android:background="@drawable/btn_3"
+            android:text="上一页" />
+        
+        <Button
+            android:id="@+id/next"
+            android:layout_width="0dip"
+            android:layout_height="100dp"
+            android:layout_marginLeft="1dp"
+            android:layout_weight=".50"
+            android:background="@drawable/btn_3"
+            android:text="下一页" />
+
+</LinearLayout>
+
+    
+
+    <TextView
+        android:id="@+id/tips"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:background="#000000"
+        android:fadeScrollbars="false"
+        android:scrollbars = "vertical"
+        android:padding="5dp"
+        android:textColor="#ffffff"
+        android:textSize="14sp" />
+
+</LinearLayout>
